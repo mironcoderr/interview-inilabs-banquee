@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html { @apply font-inter font-medium text-base scroll-smooth text-black bg-white }
+    h1 { @apply font-dm font-medium text-6xl sm:text-[80px] tracking-[-0.03em] leading-[110%] text-black; }
+    h2 { @apply font-dm font-medium text-[64px] tracking-[-0.03em] leading-[110%] text-black; }
+    h3, h4, h5, h6 { @apply font-dm font-medium tracking-[-0.03em] text-black }
+    a, span { @apply inline-block }
+}
+
+.sticky-header {
+    @apply fixed top-0 left-0 w-full z-50 py-3 border-b border-solid border-slate-200 
+    shadow-[0px_15px_35px_0px_rgba(0,0,0,0.08)] transition duration-500 ease-in-out
+}
+
+.dropdown-arrow {
+    @apply after:content-['\e5cf'] after:font-material after:font-bold 
+    after:text-lg after:align-middle after:leading-normal after:ml-[2px]
+}
+
+.scrollbar::-webkit-scrollbar { @apply w-2 }
+.scrollbar:hover::-webkit-scrollbar-thumb { @apply block }
+.scrollbar::-webkit-scrollbar-thumb:hover { @apply bg-primary }
+.scrollbar::-webkit-scrollbar-track { @apply bg-transparent rounded-full }
+.scrollbar::-webkit-scrollbar-thumb { @apply hidden bg-primary rounded-full border-2 border-solid border-white }

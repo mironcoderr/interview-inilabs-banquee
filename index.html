@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="images/favicon.png">
+    <script defer src="js/script.js"></script>
+    <title>banquee - Banking</title>
+</head>
+
+<body>
+    <!-------------------------------
+            HEADER PART START                            
+    -------------------------------->
+    <header class="py-6 bg-white transition duration-500 ease-in-out">
+        <div class="max-w-6xl mx-auto px-4 flex items-center justify-between">
+            <a href="#" class="font-dm font-bold text-xl sm:text-[32px] leading-[100%] tracking-[-0.03em] text-primary">banquee.</a>
+            <nav class="rh:fixed rh:top-0 rh:-left-64 rh:z-50 rh:w-64 rh:h-full rh:p-4 rh:bg-white rh:border-r border-solid border-light-gray sidebar-nav">
+                <div class="hidden rh:mb-8 rh:flex rh:items-center rh:justify-between">
+                    <a href="#" class="font-dm font-bold text-2xl sm:text-[32px] leading-[100%] tracking-[-0.03em] text-primary">banquee.</a>
+                    <button type="button" class="material-icons sidebar-close">close</button>
+                </div>
+                <div class="flex items-center gap-x-4 rh:flex-col rh:items-start">
+                    <a href="#" class="capitalize leading-[170%] py-2 px-3 rounded-md hover:transition hover:duration-300 hover:ease-in-out hover:bg-[#F8F8F8] rh:w-full rh:flex rh:items-center rh:justify-between rh:border-t rh:border-solid rh:border-light-gray">Features</a>
+                    <a href="#" class="capitalize leading-[170%] py-2 px-3 rounded-md hover:transition hover:duration-300 hover:ease-in-out hover:bg-[#F8F8F8] rh:w-full rh:flex rh:items-center rh:justify-between rh:border-t rh:border-solid rh:border-light-gray dropdown-arrow">compare</a>
+                    <a href="#" class="capitalize leading-[170%] py-2 px-3 rounded-md hover:transition hover:duration-300 hover:ease-in-out hover:bg-[#F8F8F8] rh:w-full rh:flex rh:items-center rh:justify-between rh:border-t rh:border-solid rh:border-light-gray">support</a>
+                    <a href="#" class="capitalize leading-[170%] py-2 px-3 rounded-md hover:transition hover:duration-300 hover:ease-in-out hover:bg-[#F8F8F8] rh:w-full rh:flex rh:items-center rh:justify-between rh:border-t rh:border-solid rh:border-light-gray dropdown-arrow">blog</a>
+                </div>
+            </nav>
+            <div class="flex items-center gap-4 sm:gap-8">
+                <button type="button" class="hidden material-icons rh:block rh:text-xl rh:w-8 rh:h-8 rh:leading-8 rh:text-center rh:rounded-full rh:bg-light-green rh:text-primary sidebar-open">menu</button>
+                <a href="#" class="text-base capitalize font-dm font-medium sm:text-lg leading-[100%] whitespace-nowrap tracking-[-0.03em] text-primary ">login</a>
+                <a href="#" class="text-sm py-2.5 px-3 sm:text-[15px] tracking-normal capitalize font-dm font-medium leading-[100%] 
+                whitespace-nowrap sm:py-3 sm:px-4 rounded-md hover:duration-300 hover:ease-in-out  text-white bg-primary
+                 hover:text-primary  hover:bg-light-green">open account</a>
+            </div>
+        </div>
+    </header>
+    <!-------------------------------
+            HEADER PART END                                     
+    -------------------------------->
+
+
+    <!-------------------------------
+            BANNER PART START                                     
+    -------------------------------->
+    <section class="py-20 sm:py-24 md:py-36">
+        <div class="max-w-6xl mx-auto px-4 sm:flex gap-6">
+            <div class="sm:w-1/2 md:w-2/3 mb-12 sm:mb-0">
+                <h2 class="sm:text-6xl md:text-[100px] mb-4">Banking starts here.</h2>
+                <p class="sm:text-lg md:text-2xl leading-[170%] mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <ul class="flex flex-wrap gap-x-20 gap-y-4 mb-10 sm:mb-12 md:mb-16">
+                    <li class="flex items-center gap-4">
+                        <i class="material-icons shrink-0 w-[26px] h-[26px] leading-[26px] text-center text-lg rounded-full text-primary bg-light-green">check</i>
+                        <span class="text-lg leading-8">Instant Transfer</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <i class="material-icons shrink-0 w-[26px] h-[26px] leading-[26px] text-center text-lg rounded-full text-primary bg-light-green">check</i>
+                        <span class="text-lg leading-8">Payments worldwide</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <i class="material-icons shrink-0 w-[26px] h-[26px] leading-[26px] text-center text-lg rounded-full text-primary bg-light-green">check</i>
+                        <span class="text-lg leading-8">Saving accounts</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <i class="material-icons shrink-0 w-[26px] h-[26px] leading-[26px] text-center text-lg rounded-full text-primary bg-light-green">check</i>
+                        <span class="text-lg leading-8">100% mobile banking</span>
+                    </li>
+                </ul>
+                <div class="flex items-center gap-8">
+                    <a href="#" class="capitalize font-dm font-medium text-lg leading-[100%] tracking-[-0.03em] 
+                    whitespace-nowrap py-3 px-4 rounded-md hover:duration-300 hover:ease-in-out  text-white
+                    bg-primary hover:text-primary  hover:bg-light-green">open account</a>
+                    <a href="#" class="capitalize font-dm font-medium text-lg leading-[100%] whitespace-nowrap 
+                    tracking-[-0.03em] text-primary ">
+                        compare cards
+                        <i class="material-icons align-middle text-lg leading-none ml-1">arrow_forward</i>
+                    </a>
+                </div>
+            </div>
+            <div class="sm:w-1/2 md:w-1/2">
+                <img src="images/cards.png" alt="cards" class="max-w-full m-auto md:max-w-[400px] md:ml-auto">
+            </div>
+        </div>
+    </section>
+    <!-------------------------------
+            BANNER PART END                                     
+    -------------------------------->
+
+
+    <!-------------------------------
+            FEATURE PART START                                     
+    -------------------------------->
+    <section class="sm:py-36 mb-4">
+        <div class="max-w-6xl mx-auto px-4 md:flex gap-6">
+            <div class="w-full md:w-[55%] mb-12 md:mb-0">
+                <h1 class="mb-16">One app.<br>One banking.</h1>
+                <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 sm:gap-9">
+                    <div class="p-8 rounded-2xl border-2 border-solid border-light-gray">
+                        <div class="w-[50px] h-[50px] flex items-center justify-center rounded-full mb-4 bg-light-green">
+                            <img src="fonts/thunder.svg" alt="thunder" class="inline-block h-6">
+                        </div>
+                        <h5 class="text-xl leading-6 mb-2">Instant<br>transactions</h5>
+                        <p class="leading-[26px]">Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.</p>
+                    </div>
+                    <div class="p-8 rounded-2xl border-2 border-solid border-light-gray">
+                        <div class="w-[50px] h-[50px] flex items-center justify-center rounded-full mb-4 bg-light-green">
+                            <img src="fonts/locker.svg" alt="locker" class="inline-block h-6">
+                        </div>
+                        <h5 class="text-xl leading-6 mb-2">Saving<br>accounts</h5>
+                        <p class="leading-[26px]">Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.</p>
+                    </div>
+                    <div class="p-8 rounded-2xl border-2 border-solid border-light-gray">
+                        <div class="w-[50px] h-[50px] flex items-center justify-center rounded-full mb-4 bg-light-green">
+                            <img src="fonts/phone.svg" alt="phone" class="inline-block h-6">
+                        </div>
+                        <h5 class="text-xl leading-6 mb-2">Mobile<br>banking</h5>
+                        <p class="leading-[26px]">Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.</p>
+                    </div>
+                    <div class="p-8 rounded-2xl border-2 border-solid border-light-gray">
+                        <div class="w-[50px] h-[50px] flex items-center justify-center rounded-full mb-4 bg-light-green">
+                            <img src="fonts/chart.svg" alt="chart" class="inline-block h-6">
+                        </div>
+                        <h5 class="text-xl leading-6 mb-2">Advanced<br>statistics</h5>
+                        <p class="leading-[26px]">Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.</p>
+                    </div>
+                    <div class="p-8 rounded-2xl border-2 border-solid border-light-gray">
+                        <div class="w-[50px] h-[50px] flex items-center justify-center rounded-full mb-4 bg-light-green">
+                            <img src="fonts/card.svg" alt="card" class="inline-block h-6">
+                        </div>
+                        <h5 class="text-xl leading-6 mb-2">Virtual<br>cards</h5>
+                        <p class="leading-[26px]">Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.</p>
+                    </div>
+                    <div class="p-8 rounded-2xl border-2 border-solid border-light-gray">
+                        <div class="w-[50px] h-[50px] flex items-center justify-center rounded-full mb-4 bg-light-green">
+                            <img src="fonts/wifi.svg" alt="wifi" class="inline-block h-6">
+                        </div>
+                        <h5 class="text-xl leading-6 mb-2">Contactless<br>payments</h5>
+                        <p class="leading-[26px]">Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-[45%]">
+                <img src="images/app.png" alt="cards" class="max-w-full m-auto lg:max-w-[380px] lg:ml-auto">
+            </div>
+        </div>
+    </section>
+    <!-------------------------------
+            FEATURE PART END                                     
+    -------------------------------->
+
+
+    <!-------------------------------
+          TRANSACTION PART START                                     
+    -------------------------------->
+    <section class="bg-light-green pt-[86px]">
+        <div class="max-w-6xl mx-auto px-4 md:flex gap-6">
+            <div class="md:w-1/2">
+                <h2 class="mb-4">Send & receive money instantly</h2>
+                <p class="text-xl leading-9 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                <ul class="flex flex-col gap-3 mb-12">
+                    <li class="flex items-center gap-4">
+                        <i class="material-icons shrink-0 w-[26px] h-[26px] leading-[26px] text-center text-lg rounded-full text-white bg-primary">check</i>
+                        <span class="text-lg leading-8">Malesuada Ipsum</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <i class="material-icons shrink-0 w-[26px] h-[26px] leading-[26px] text-center text-lg rounded-full text-white bg-primary">check</i>
+                        <span class="text-lg leading-8">Vestibulum</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <i class="material-icons shrink-0 w-[26px] h-[26px] leading-[26px] text-center text-lg rounded-full text-white bg-primary">check</i>
+                        <span class="text-lg leading-8">Parturient Lorem</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:w-1/2 md:h-[510px] overflow-y-auto flex flex-col md:items-end gap-4 scrollbar">
+                <div class="w-full lg:w-[400px] py-4 pl-4 pr-6 rounded-[10px] flex items-center justify-start gap-4 bg-white">
+                    <div class="w-[50px] h-[50px] flex items-center justify-center rounded-lg bg-primary">
+                        <img src="fonts/apple.svg" alt="apple" class="inline-block h-6">
+                    </div>
+                    <div class="flex-grow">
+                        <h6 class="capitalize text-lg leading-[140%]">Apple</h6>
+                        <p class="capitalize leading-[160%] text-muted">Macbook</p>
+                    </div>
+                    <h6 class="text-lg leading-[140%]">-999€</h6>
+                </div>
+                <div class="w-full lg:w-[400px] py-4 pl-4 pr-6 rounded-[10px] flex items-center justify-start gap-4 bg-white">
+                    <div class="w-[50px] h-[50px] flex items-center justify-center rounded-lg bg-primary">
+                        <img src="fonts/apple.svg" alt="apple" class="inline-block h-6">
+                    </div>
+                    <div class="flex-grow">
+                        <h6 class="capitalize text-lg leading-[140%]">Amazon</h6>
+                        <p class="capitalize leading-[160%] text-muted">Electronics</p>
+                    </div>
+                    <h6 class="text-lg leading-[140%]">-49€</h6>
+                </div>
+                <div class="w-full lg:w-[400px] py-4 pl-4 pr-6 rounded-[10px] flex items-center justify-start gap-4 bg-white">
+                    <div class="w-[50px] h-[50px] flex items-center justify-center rounded-lg bg-primary">
+                        <img src="fonts/apple.svg" alt="apple" class="inline-block h-6">
+                    </div>
+                    <div class="flex-grow">
+                        <h6 class="capitalize text-lg leading-[140%]">Twitter</h6>
+                        <p class="capitalize leading-[160%] text-muted">Ads</p>
+                    </div>
+                    <h6 class="text-lg leading-[140%]">-29€</h6>
+                </div>
+                <div class="w-full lg:w-[400px] py-4 pl-4 pr-6 rounded-[10px] flex items-center justify-start gap-4 bg-white">
+                    <div class="w-[50px] h-[50px] flex items-center justify-center rounded-lg bg-primary">
+                        <img src="fonts/apple.svg" alt="apple" class="inline-block h-6">
+                    </div>
+                    <div class="flex-grow">
+                        <h6 class="capitalize text-lg leading-[140%]">Microsoft</h6>
+                        <p class="capitalize leading-[160%] text-muted">Office Suite</p>
+                    </div>
+                    <h6 class="text-lg leading-[140%]">-149€</h6>
+                </div>
+                <div class="w-full lg:w-[400px] py-4 pl-4 pr-6 rounded-[10px] flex items-center justify-start gap-4 bg-white">
+                    <div class="w-[50px] h-[50px] flex items-center justify-center rounded-lg bg-primary">
+                        <img src="fonts/apple.svg" alt="apple" class="inline-block h-6">
+                    </div>
+                    <div class="flex-grow">
+                        <h6 class="capitalize text-lg leading-[140%]">Dropbox</h6>
+                        <p class="capitalize leading-[160%] text-muted">Cloud</p>
+                    </div>
+                    <h6 class="text-lg leading-[140%]">-14€</h6>
+                </div>
+                <div class="w-full lg:w-[400px] py-4 pl-4 pr-6 rounded-[10px] flex items-center justify-start gap-4 bg-white">
+                    <div class="w-[50px] h-[50px] flex items-center justify-center rounded-lg bg-primary">
+                        <img src="fonts/apple.svg" alt="apple" class="inline-block h-6">
+                    </div>
+                    <div class="flex-grow">
+                        <h6 class="capitalize text-lg leading-[140%]">Paypal</h6>
+                        <p class="capitalize leading-[160%] text-muted">Shopping</p>
+                    </div>
+                    <h6 class="text-lg leading-[140%]">-200€</h6>
+                </div>
+                <div class="w-full lg:w-[400px] py-4 pl-4 pr-6 rounded-[10px] flex items-center justify-start gap-4 bg-white">
+                    <div class="w-[50px] h-[50px] flex items-center justify-center rounded-lg bg-primary">
+                        <img src="fonts/apple.svg" alt="apple" class="inline-block h-6">
+                    </div>
+                    <div class="flex-grow">
+                        <h6 class="capitalize text-lg leading-[140%]">Apple</h6>
+                        <p class="capitalize leading-[160%] text-muted">Macbook</p>
+                    </div>
+                    <h6 class="text-lg leading-[140%]">-999€</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------
+          TRANSACTION PART END                                     
+    -------------------------------->
+
+
+    <!-------------------------------
+            SAVING PART START                                     
+    -------------------------------->
+    <section class="py-40">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="md:flex md:justify-between md:gap-6 mb-16">
+                <div class="mb-14 md:mb-0 md:w-2/3">
+                    <h5 class="text-xl leading-6 capitalize mb-4">Saving Accounts</h5>
+                    <h2 class="mb-4">Organize your<br>money the right way</h2>
+                    <p class="text-xl leading-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <a href="#" class="capitalize font-dm font-medium text-lg leading-[100%] 
+                whitespace-nowrap tracking-[-0.03em] text-primary self-end">
+                    All Features
+                    <i class="material-icons align-middle text-lg leading-none ml-1">arrow_forward</i>
+                </a>
+            </div>
+            <div class="grid gap-8 md:grid-cols-5">
+                <div>
+                    <div class="bg-light-green h-[214px] rounded-2xl flex items-center justify-center mb-4">
+                        <img src="images/tools/laptop.png" alt="tools" class="inline-block w-14">
+                    </div>
+                    <h5 class="text-xl leading-6 mb-1">New Laptop</h5>
+                    <p class="text-sm leading-[160%] text-muted">400$</p>
+                </div>
+                <div>
+                    <div class="bg-light-maroon h-[214px] rounded-2xl flex items-center justify-center mb-4">
+                        <img src="images/tools/bicycle.png" alt="tools" class="inline-block w-14">
+                    </div>
+                    <h5 class="text-xl leading-6 mb-1">Dream bike</h5>
+                    <p class="text-sm leading-[160%] text-muted">200$</p>
+                </div>
+                <div>
+                    <div class="bg-light-purple h-[214px] rounded-2xl flex items-center justify-center mb-4">
+                        <img src="images/tools/airplane.png" alt="tools" class="inline-block w-14">
+                    </div>
+                    <h5 class="text-xl leading-6 mb-1">Holiday</h5>
+                    <p class="text-sm leading-[160%] text-muted">14000$</p>
+                </div>
+                <div>
+                    <div class="bg-light-blue h-[214px] rounded-2xl flex items-center justify-center mb-4">
+                        <img src="images/tools/camera.png" alt="tools" class="inline-block w-14">
+                    </div>
+                    <h5 class="text-xl leading-6 mb-1">Camera</h5>
+                    <p class="text-sm leading-[160%] text-muted">100$</p>
+                </div>
+                <div class="bg-[#F8F8F8] h-[214px] rounded-2xl flex items-center justify-center">
+                    <a href="#" class="material-icons w-10 h-10 rounded-full leading-10 text-center text-2xl text-white bg-black">add</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------
+            SAVING PART END                                     
+    -------------------------------->
+
+
+    <!-------------------------------
+          NOTIFICATION PART START                                     
+    -------------------------------->
+    <section class="mb-40">
+        <div class="max-w-6xl mx-auto px-4 md:flex gap-6">
+            <div class="mb-12 md:mb-0 md:w-1/2">
+                <h5 class="text-xl leading-6 capitalize mb-2">Notifications</h5>
+                <h2 class="mb-4">Stay notified</h2>
+                <p class="text-lg leading-8 mb-8">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <ul class="flex flex-col gap-3 mb-12">
+                    <li class="flex items-center gap-4">
+                        <i class="material-icons shrink-0 w-[26px] h-[26px] leading-[26px] text-center text-lg rounded-full text-primary bg-light-green">check</i>
+                        <span class="text-lg leading-8">Malesuada Ipsum</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <i class="material-icons shrink-0 w-[26px] h-[26px] leading-[26px] text-center text-lg rounded-full text-primary bg-light-green">check</i>
+                        <span class="text-lg leading-8">Vestibulum</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <i class="material-icons shrink-0 w-[26px] h-[26px] leading-[26px] text-center text-lg rounded-full text-primary bg-light-green">check</i>
+                        <span class="text-lg leading-8">Parturient Lorem</span>
+                    </li>
+                </ul>
+                <a href="#" class="capitalize font-dm font-medium text-lg leading-[100%] 
+                whitespace-nowrap tracking-[-0.03em] text-primary ">
+                    compare cards
+                    <i class="material-icons align-middle text-lg leading-none ml-1">arrow_forward</i>
+                </a>
+            </div>
+            <div class="md:w-1/2 flex flex-col md:items-end gap-4">
+                <div class="w-full lg:w-[500px] py-4 pl-4 pr-6 rounded-[10px] flex items-center justify-start gap-4 bg-[#F8F8F8]">
+                    <div class="w-[50px] h-[50px] flex flex-shrink-0 items-center justify-center rounded-lg bg-primary">
+                        <img src="fonts/b.svg" alt="b" class="inline-block h-6">
+                    </div>
+                    <div class="flex-grow">
+                        <h6 class="capitalize text-lg font-bold leading-[140%]">Banko.</h6>
+                        <p class="capitalize leading-[160%]">You payment of 49€ has been processed!</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-[500px] py-4 pl-4 pr-6 rounded-[10px] flex items-center justify-start gap-4 bg-[#F8F8F8]">
+                    <div class="w-[50px] h-[50px] flex flex-shrink-0 items-center justify-center rounded-lg bg-primary">
+                        <img src="fonts/b.svg" alt="b" class="inline-block h-6">
+                    </div>
+                    <div class="flex-grow">
+                        <h6 class="capitalize text-lg font-bold leading-[140%]">Banko.</h6>
+                        <p class="capitalize leading-[160%]">You got a new support message!</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-[500px] py-4 pl-4 pr-6 rounded-[10px] flex items-center justify-start gap-4 bg-[#F8F8F8]">
+                    <div class="w-[50px] h-[50px] flex flex-shrink-0 items-center justify-center rounded-lg bg-primary">
+                        <img src="fonts/b.svg" alt="b" class="inline-block h-6">
+                    </div>
+                    <div class="flex-grow">
+                        <h6 class="capitalize text-lg font-bold leading-[140%]">Banko.</h6>
+                        <p class="capitalize leading-[160%]">You payment was declined!</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-[500px] py-4 pl-4 pr-6 rounded-[10px] flex items-center justify-start gap-4 bg-[#F8F8F8]">
+                    <div class="w-[50px] h-[50px] flex flex-shrink-0 items-center justify-center rounded-lg bg-primary">
+                        <img src="fonts/b.svg" alt="b" class="inline-block h-6">
+                    </div>
+                    <div class="flex-grow">
+                        <h6 class="capitalize text-lg font-bold leading-[140%]">Banko.</h6>
+                        <p class="capitalize leading-[160%]">Please verify your payment of 99€!</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-[500px] py-4 pl-4 pr-6 rounded-[10px] flex items-center justify-start gap-4 bg-[#F8F8F8]">
+                    <div class="w-[50px] h-[50px] flex flex-shrink-0 items-center justify-center rounded-lg bg-primary">
+                        <img src="fonts/b.svg" alt="b" class="inline-block h-6">
+                    </div>
+                    <div class="flex-grow">
+                        <h6 class="capitalize text-lg font-bold leading-[140%]">Banko.</h6>
+                        <p class="capitalize leading-[160%]">New account statistics are available!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------
+          NOTIFICATION PART END                                      
+    -------------------------------->
+
+
+    <!-------------------------------
+            TOOLS PART START                                      
+    -------------------------------->
+    <section class="mb-40">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-wrap gap-4 md:max-w-2xl mb-16">
+                <div class="h-[60px] p-4 rounded-[10px] flex items-center justify-center bg-[#F8F8F8]">
+                    <img src="images/brands/webflow.png" alt="brands" class="h-6">
+                </div>
+                <div class="h-[60px] p-4 rounded-[10px] flex items-center justify-center bg-[#F8F8F8]">
+                    <img src="images/brands/shopify.png" alt="brands" class="h-6">
+                </div>
+                <div class="h-[60px] p-4 rounded-[10px] flex items-center justify-center bg-[#F8F8F8]">
+                    <img src="images/brands/zapier.png" alt="brands" class="h-6">
+                </div>
+                <div class="h-[60px] p-4 rounded-[10px] flex items-center justify-center bg-[#F8F8F8]">
+                    <img src="images/brands/bitcoin.png" alt="brands" class="h-6">
+                </div>
+                <div class="h-[60px] p-4 rounded-[10px] flex items-center justify-center bg-[#F8F8F8]">
+                    <img src="images/brands/paypal.png" alt="brands" class="h-6">
+                </div>
+                <div class="h-[60px] p-4 rounded-[10px] flex items-center justify-center bg-[#F8F8F8]">
+                    <img src="images/brands/mastercard.png" alt="brands" class="h-6">
+                </div>
+                <div class="h-[60px] p-4 rounded-[10px] flex items-center justify-center bg-[#F8F8F8]">
+                    <img src="images/brands/visacard.png" alt="brands" class="h-6">
+                </div>
+                <div class="h-[60px] p-4 rounded-[10px] flex items-center justify-center bg-[#F8F8F8]">
+                    <img src="images/brands/googlepay.png" alt="brands" class="h-6">
+                </div>
+                <div class="h-[60px] p-4 rounded-[10px] flex items-center justify-center bg-[#F8F8F8]">
+                    <img src="images/brands/applepay.png" alt="brands" class="h-6">
+                </div>
+                <div class="h-[60px] p-4 rounded-[10px] flex items-center justify-center bg-[#F8F8F8]">
+                    <img src="images/brands/amazonpay.png" alt="brands" class="h-6">
+                </div>
+            </div>
+            <div class="md:flex md:gap-6">
+                <div class="mb-10 md:mb-0 md:w-1/2">
+                    <h5 class="text-xl leading-6 capitalize mb-2">Tools</h5>
+                    <h2 class="mb-4">Seemless integration</h2>
+                    <p class="text-lg leading-8">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+                <div class="md:w-1/2 md:pl-32 self-end">
+                    <ul class="flex flex-col gap-3">
+                        <li class="flex items-center gap-4">
+                            <i class="material-icons shrink-0 w-[26px] h-[26px] leading-[26px] text-center text-lg rounded-full text-primary bg-light-green">check</i>
+                            <span class="text-lg leading-8">Malesuada Ipsum</span>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <i class="material-icons shrink-0 w-[26px] h-[26px] leading-[26px] text-center text-lg rounded-full text-primary bg-light-green">check</i>
+                            <span class="text-lg leading-8">Vestibulum</span>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <i class="material-icons shrink-0 w-[26px] h-[26px] leading-[26px] text-center text-lg rounded-full text-primary bg-light-green">check</i>
+                            <span class="text-lg leading-8">Parturient Lorem</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------
+            TOOLS PART END                                      
+    -------------------------------->
+
+
+    <!-------------------------------
+            FOOTER PART START                                      
+    -------------------------------->
+    <footer class="border-t border-solid border-light-gray">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="md:flex md:gap-6 pt-24 pb-20 border-b border-solid border-light-gray">
+                <a href="#" class="mb-12 md:mb-0 md:w-[200px] lg:w-[410px] md:flex-shrink-0 font-dm font-bold text-2xl md:text-[32px] leading-[100%] tracking-[-0.03em] text-primary">banquee.</a>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 w-full">
+                    <nav>
+                        <h6 class="text-lg leading-[140%] capitalize mb-8">About</h6>
+                        <div class="flex flex-col gap-4">
+                            <a href="#" class="capitalize leading-[160%] text-muted hover:text-primary">Features</a>
+                            <a href="#" class="capitalize leading-[160%] text-muted hover:text-primary">pricing</a>
+                            <a href="#" class="capitalize leading-[160%] text-muted hover:text-primary">support</a>
+                        </div>
+                    </nav>
+                    <nav>
+                        <h6 class="text-lg leading-[140%] capitalize mb-8">Blog</h6>
+                        <div class="flex flex-col gap-4">
+                            <a href="#" class="capitalize leading-[160%] text-muted hover:text-primary">Products</a>
+                            <a href="#" class="capitalize leading-[160%] text-muted hover:text-primary">Technology</a>
+                            <a href="#" class="capitalize leading-[160%] text-muted hover:text-primary">Crypto</a>
+                        </div>
+                    </nav>
+                    <nav>
+                        <h6 class="text-lg leading-[140%] capitalize mb-8">Webflow</h6>
+                        <div class="flex flex-col gap-4">
+                            <a href="#" class="capitalize leading-[160%] text-muted hover:text-primary">Styleguide</a>
+                            <a href="#" class="capitalize leading-[160%] text-muted hover:text-primary">Licensing</a>
+                            <a href="#" class="capitalize leading-[160%] text-muted hover:text-primary">Changelog</a>
+                        </div>
+                    </nav>
+                    <nav>
+                        <h6 class="text-lg leading-[140%] capitalize mb-8">Social Media</h6>
+                        <div class="flex flex-col gap-4">
+                            <a href="#" class="capitalize leading-[160%] text-muted hover:text-primary">Twitter</a>
+                            <a href="#" class="capitalize leading-[160%] text-muted hover:text-primary">Facebook</a>
+                            <a href="#" class="capitalize leading-[160%] text-muted hover:text-primary">Instagram</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="pt-4 pb-12 flex flex-col sm:flex-row items-center sm:justify-between gap-6">
+                <p class="text-sm leading-[160%] text-muted">© Made by <a href="#" class="capitalize text-primary">Pawel Gola</a> - Powered by <a href="#" class="capitalize text-primary">Webflow</a></p>
+                <nav class="flex items-center justify-center gap-8">
+                    <a href="#" class="capitalize text-sm leading-[160%] text-muted hover:text-primary">Impressum</a>
+                    <a href="#" class="capitalize text-sm leading-[160%] text-muted hover:text-primary">Datenschutz</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <!-------------------------------
+            FOOTER PART END                                      
+    -------------------------------->
+</body>
+
+</html>
